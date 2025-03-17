@@ -109,6 +109,17 @@ ul li span:hover{
     background: #edeef0;
 } 
 
+@media (max-width:650px) {
+    .row{
+    flex-direction: column;
+    border-radius: 5px;
+    }
+    button{
+font-size: 12px;
+border-radius: 5px;
+    }
+}
+
 
 
 
