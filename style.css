@@ -1,14 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Poppins',sans-serif;
     box-sizing: border-box;
 }
 
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg,#c5e5ed,#0466a3);
+    background: linear-gradient(#222,#111);
     padding: 10px;
 }
 .todo-app{
@@ -20,7 +22,7 @@
     border-radius: 10px;
 }
 .todo-app h2{
-    color: #002765;
+    color: #111;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
@@ -53,7 +55,7 @@ button{
     border: none;
     outline: none;
     padding: 16px 50px;
-    background: #297fc1;
+    background: #111;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
@@ -88,8 +90,7 @@ ul li.checked{
 }
 
 ul li.checked::before{
-    background-image:url(assets/checked.png);
-    ;
+    background-image:url(assets/checked.png)
 }
 
 ul li span{
@@ -106,4 +107,8 @@ ul li span{
 }
 ul li span:hover{
     background: #edeef0;
-}
+} 
+
+
+
+
